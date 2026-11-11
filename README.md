@@ -17,7 +17,9 @@ My journey learning Reverse Engineering: notes written from scratch, with hands-
 .
 ├── README.md / README.id.md
 ├── INDEX.md  / INDEX.id.md
-└── PART0
+├── PART0
+│   └── note.md / note.id.md
+└── PART1
     └── note.md / note.id.md
 ```
 

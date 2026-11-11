@@ -17,7 +17,9 @@ Perjalananku belajar Reverse Engineering (rekayasa balik): catatan dari nol, den
 .
 ├── README.md / README.id.md
 ├── INDEX.md  / INDEX.id.md
-└── PART0
+├── PART0
+│   └── note.md / note.id.md
+└── PART1
     └── note.md / note.id.md
 ```
 
