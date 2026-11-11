@@ -3,7 +3,7 @@
 [English](note.md) · **Bahasa Indonesia**
 
 > [!NOTE]
-> Sumber: [PART 2A di YouTube](https://youtu.be/NefasNimlIk?si=iqEId\_w4sANmHAUx)
+> Sumber: [PART 3 di YouTube](https://youtu.be/NefasNimlIk?si=iqEId\_w4sANmHAUx)
 >
 > Catatan ini ditulis untuk pemula. Istilah teknis tetap ditulis dalam bahasa aslinya (agar kamu terbiasa dengan istilah yang dipakai di dunia nyata), tetapi selalu dijelaskan dengan bahasa sederhana. Ada **Kamus Istilah** di bagian paling bawah.
 
