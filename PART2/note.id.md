@@ -96,6 +96,29 @@ Saat menganalisis fungsi di GDB (seperti fungsi `main` atau `add`):
 
 ---
 
+## Kamus Istilah
+
+| Istilah | Arti sederhana |
+|---|---|
+| **Opcode** | Nama instruksi/perintah assembly (mis. `mov`, `add`, `lea`) |
+| **Operand** | Nilai atau lokasi yang dioperasikan oleh sebuah instruksi (Destination & Source) |
+| **Intel Syntax** | Gaya penulisan assembly `operasi tujuan, sumber` — lebih mudah dibaca pemula |
+| **AT&T Syntax** | Gaya penulisan assembly `operasi sumber, tujuan` dengan simbol `$` dan `%` — default GDB |
+| **Immediate** | Nilai konstan yang ditulis langsung di kode, mis. `5` atau `0x25` |
+| **Register** | Tempat penyimpanan cepat di dalam CPU, mis. `rax`, `rdx` |
+| **Memory Operand** | Alamat memori, selalu ditandai kurung siku `[...]` ("nilai di alamat ini") |
+| **MOV** | Menyalin nilai dari sumber ke tujuan, tanpa mengubah isi sumber |
+| **LEA (Load Effective Address)** | Mengambil **alamat** memori itu sendiri, bukan isinya |
+| **ADD / SUB** | Menambah / mengurangi nilai |
+| **INC / DEC** | Menambah 1 / mengurangi 1 |
+| **Flags Register** | Penanda status hasil operasi terakhir (ZF = nol, SF = negatif, dll.) |
+| **XOR** | Operasi logika; `xor reg, reg` adalah trik cepat untuk mengosongkan register ke 0 |
+| **Prologue** | Instruksi pembuka standar di awal fungsi (menyiapkan stack frame) |
+
+---
+
 <div align="center">
 
 [@T4n-Labs](https://t4nlabs.web.id/) • [@Gh0sT4n](https://gh0st4n.my.id)
+
+</div>

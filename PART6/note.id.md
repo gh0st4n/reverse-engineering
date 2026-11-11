@@ -79,6 +79,24 @@
 
 ---
 
+## Kamus Istilah
+
+| Istilah | Arti sederhana |
+|---|---|
+| **Code Injection** | Menyuntikkan kode buatan sendiri ke dalam memori program target lalu memaksanya dijalankan |
+| **Shellcode** | Potongan kecil kode mesin mentah yang biasanya dirancang untuk membuka shell (`/bin/sh`) |
+| **NX Stack / DEP** | Proteksi yang membuat area stack tidak bisa dieksekusi sebagai kode |
+| **ASLR** | Pengacakan alamat memori oleh OS agar sulit ditebak penyerang |
+| **NOP (No Operation)** | Instruksi "tidak melakukan apa-apa"; dipakai sebagai "landasan pacu" lompatan |
+| **NOP Sled** | Deretan panjang instruksi NOP sehingga CPU yang mendarat di mana pun di dalamnya akan meluncur sampai ke shellcode |
+| **Return Address** | Alamat yang dituju CPU setelah sebuah fungsi selesai dijalankan |
+| **Payload** | Data yang disusun (padding + alamat + NOP sled + shellcode) untuk memicu eksploitasi |
+| **ROP (Return-Oriented Programming)** | Teknik memanfaatkan kembali potongan kode yang sudah ada di binary untuk melewati proteksi NX/ASLR (dibahas di Fase 7) |
+
+---
+
 <div align="center">
 
 [@T4n-Labs](https://t4nlabs.web.id/) • [@Gh0sT4n](https://gh0st4n.my.id)
+
+</div>

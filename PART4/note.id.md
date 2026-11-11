@@ -134,6 +134,26 @@ Program "The Vault" merupakan biner sederhana tanpa mekanisme perlindungan. Pada
 
 ---
 
+## Kamus Istilah
+
+| Istilah | Arti sederhana |
+|---|---|
+| **Ghidra** | Framework reverse engineering gratis buatan NSA: disassembler + decompiler |
+| **Disassembler** | Alat yang menerjemahkan kode mesin menjadi assembly |
+| **Decompiler** | Alat yang menebak kode tingkat tinggi (mirip C) dari assembly |
+| **Pseudo-code** | Kode hasil dekompilasi yang menyerupai C tapi bukan C asli |
+| **Code Browser** | Jendela kerja utama Ghidra untuk menganalisis satu binary |
+| **Symbol Tree** | Panel Ghidra berisi daftar fungsi dan simbol dalam binary |
+| **Listing** | Panel Ghidra yang menampilkan instruksi assembly beserta alamatnya |
+| **Refactoring (rename)** | Mengganti nama variabel generik (`iVar1`) menjadi nama yang jelas maknanya |
+| **Obfuscation** | Teknik mengaburkan struktur kode agar sulit dibaca/dekompilasi |
+| **Packing** | Mengompresi/menyembunyikan kode asli di dalam file agar tidak terbaca statis |
+| **Anti-Analysis** | Teknik program mendeteksi debugger/sandbox lalu menghindari analisis |
+
+---
+
 <div align="center">
 
 [@T4n-Labs](https://t4nlabs.web.id/) • [@Gh0sT4n](https://gh0st4n.my.id)
+
+</div>

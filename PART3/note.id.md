@@ -133,6 +133,28 @@ Cara ini mengubah kode biner program secara permanen sehingga password acak akan
 
 ---
 
+## Kamus Istilah
+
+| Istilah | Arti sederhana |
+|---|---|
+| **EFLAGS** | Register status CPU yang menyimpan hasil perbandingan terakhir |
+| **Zero Flag (ZF)** | Bernilai 1 jika hasil operasi terakhir adalah nol (dua nilai sama) |
+| **CMP** | Membandingkan dua nilai dengan "mengurangkannya" diam-diam, hanya mengubah flag |
+| **TEST** | Operasi AND bitwise tanpa menyimpan hasil, biasa dipakai cek apakah register = 0 |
+| **JMP** | Lompat tanpa syarat ke alamat lain |
+| **JE / JNE** | Lompat jika sama (*Jump if Equal*) / jika tidak sama (*Jump if Not Equal*) |
+| **JG / JL** | Lompat jika lebih besar / lebih kecil |
+| **CALL / RET** | Memanggil fungsi (`CALL`) dan kembali ke pemanggil (`RET`) |
+| **Prolog / Epilog** | Instruksi pembuka dan penutup standar sebuah fungsi |
+| **objdump** | Tool untuk membongkar (disassemble) binary menjadi assembly |
+| **dd** | Tool command-line Linux untuk menulis/menyalin byte mentah ke dalam file |
+| **Opcode** | Angka yang mewakili sebuah instruksi (mis. `0x75` = `jne`, `0x74` = `je`) |
+| **Patch (binary patching)** | Mengubah byte di dalam file binary untuk mengubah perilaku program |
+
+---
+
 <div align="center">
 
 [@T4n-Labs](https://t4nlabs.web.id/) • [@Gh0sT4n](https://gh0st4n.my.id)
+
+</div>

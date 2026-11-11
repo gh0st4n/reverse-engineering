@@ -43,6 +43,25 @@ Program target memiliki **dua kerentanan utama** yang sengaja dibuat untuk pembe
 
 ---
 
+## Kamus Istilah
+
+| Istilah | Arti sederhana |
+|---|---|
+| **Buffer Overflow** | Kerentanan saat data yang ditulis melebihi kapasitas ruang penyimpanan yang dialokasikan |
+| **Buffer** | Ruang memori berukuran tetap untuk menampung data (mis. input pengguna) |
+| **gets()** | Fungsi C yang membaca input tanpa batas panjang — penyebab klasik buffer overflow |
+| **Segmentation Fault** | Crash yang terjadi saat program mengakses memori yang tidak sah |
+| **Return Address** | Alamat yang diberitahu ke CPU untuk dituju setelah sebuah fungsi selesai |
+| **RIP (Instruction Pointer)** | Register yang menunjuk instruksi berikutnya yang akan dijalankan CPU |
+| **Overwrite (menimpa)** | Menulis ulang data pada stack sehingga mengganti nilai aslinya, termasuk return address |
+| **Payload** | Data yang dirancang khusus untuk dikirim ke program demi memicu eksploitasi |
+| **Padding** | Byte pengisi dalam payload untuk "memenuhi" buffer hingga mencapai target tertentu |
+| **Fungsi win()** | Fungsi tersembunyi/tidak terpakai dalam contoh latihan ini yang dijadikan target lompatan |
+
+---
+
 <div align="center">
 
 [@T4n-Labs](https://t4nlabs.web.id/) • [@Gh0sT4n](https://gh0st4n.my.id)
+
+</div>

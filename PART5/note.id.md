@@ -67,6 +67,22 @@
 
 ---
 
+## Kamus Istilah
+
+| Istilah | Arti sederhana |
+|---|---|
+| **Packing** | Mengompresi/menyembunyikan kode asli program di dalam disk, seperti file ZIP |
+| **Packer** | Program yang melakukan packing, mis. **UPX** |
+| **Unpacking** | Proses membongkar/mengembalikan binary yang di-pack ke bentuk aslinya |
+| **nm** | Tool untuk menampilkan daftar simbol (nama fungsi, variabel) di dalam binary |
+| **"no symbols"** | Pesan yang muncul saat `nm` tidak menemukan simbol apa pun (ciri binary di-pack) |
+| **Stub** | Potongan kode kecil pembuka (di sini: kode *unpacker* yang terlihat Ghidra sebelum kode asli terbongkar) |
+| **In-Memory Dump** | Mengambil salinan kode dari memori saat program sedang berjalan (setelah ia membongkar dirinya sendiri) |
+
+---
+
 <div align="center">
 
 [@T4n-Labs](https://t4nlabs.web.id/) • [@Gh0sT4n](https://gh0st4n.my.id)
+
+</div>

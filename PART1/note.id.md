@@ -204,6 +204,37 @@ Saat melangkah instruksi demi instruksi (`stepi`), perhatikan:
 
 ---
 
+## Kamus Istilah
+
+| Istilah | Arti sederhana |
+|---|---|
+| **CPU** | Otak komputer; menjalankan instruksi mesin satu per satu |
+| **Fetch-Decode-Execute** | Siklus kerja CPU: ambil instruksi → terjemahkan → jalankan |
+| **Register** | Tempat penyimpanan super cepat di dalam CPU (mis. `RAX`, `RSP`) |
+| **GPR (General Purpose Register)** | Register serbaguna untuk perhitungan dan manipulasi data |
+| **RIP (Instruction Pointer)** | Register yang menunjuk instruksi berikutnya yang akan dijalankan |
+| **RSP (Stack Pointer)** | Register yang menunjuk puncak *stack* saat ini |
+| **RBP (Base/Frame Pointer)** | Register penanda dasar dari *stack frame* fungsi yang aktif |
+| **RFLAGS** | Register status yang menyimpan hasil operasi terakhir (ZF, SF, CF, OF) |
+| **Virtual Address Space** | Ruang alamat memori "virtual" yang dilihat tiap program, dikelola OS |
+| **Text Segment** | Bagian memori berisi kode program (read-only, executable) |
+| **Data / BSS Segment** | Bagian memori untuk variabel global: `.data` (sudah ada nilai awal), `.bss` (belum diisi) |
+| **Heap** | Area memori untuk alokasi dinamis (`malloc`), tumbuh ke alamat tinggi |
+| **Stack** | Area memori LIFO untuk variabel lokal & alur fungsi, tumbuh ke alamat rendah |
+| **LIFO (Last-In, First-Out)** | Data terakhir masuk adalah yang pertama keluar |
+| **PUSH / POP** | Menaruh / mengambil data dari puncak stack |
+| **Stack Frame** | "Ruang kerja" milik satu pemanggilan fungsi di dalam stack |
+| **CALL / RET** | `CALL` memanggil fungsi (menyimpan alamat kembali); `RET` kembali ke pemanggil |
+| **Return Address** | Alamat instruksi yang akan dijalankan setelah fungsi selesai |
+| **Prologue / Epilogue** | Instruksi pembuka/penutup standar di awal/akhir fungsi |
+| **ABI (Application Binary Interface)** | Aturan baku bagaimana fungsi menerima argumen & nilai kembalian (mis. System V ABI di Linux) |
+| **GDB (GNU Debugger)** | Alat untuk menjalankan & memeriksa program secara langsung (dinamis) |
+| **Breakpoint** | Titik henti yang diatur di debugger agar program berhenti di sana |
+
+---
+
 <div align="center">
 
 [@T4n-Labs](https://t4nlabs.web.id/) • [@Gh0sT4n](https://gh0st4n.my.id)
+
+</div>
