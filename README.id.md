@@ -48,9 +48,9 @@ Yang sudah ditulis: PART 0 → PART 6 (draf Indonesia); versi Inggris menyusul.
 | **0** | **Fondasi** — pola pikir RE + kemenangan pertama lewat praktik | [tonton](https://www.youtube.com/watch?v=zDJtr9r2RFs&t=197s) | [ID](PART0/note.id.md) · [EN](PART0/note.md) |
 | **1** | **Dasar Arsitektur** — CPU, register, memori, stack | [tonton](https://www.youtube.com/watch?v=eEcXSvd8PCM) | [ID](PART1/note.id.md) · [EN](PART1/note.md) |
 | **2** | **Bahasa Assembly** — membaca disassembly x86-64 dengan lancar | [tonton](https://www.youtube.com/watch?v=HkMetTR67XU) | [ID](PART2/note.id.md) · [EN](PART2/note.md) |
-| **3** | **Format Executable** — anatomi ELF (Linux) & PE (Windows) | – | [ID](PART3/note.id.md) · [EN](PART3/note.md) |
+| **3** | **Format Executable** — anatomi ELF (Linux) & PE (Windows) | [tonton](https://www.youtube.com/watch?v=NefasNimlIk) | [ID](PART3/note.id.md) · [EN](PART3/note.md) |
 | **4** | **Analisis Statis** — memetakan seluruh binary tanpa menjalankannya (Ghidra) | [tonton](https://www.youtube.com/watch?v=sbGsMc9_qvg) | [ID](PART4/note.id.md) · [EN](PART4/note.md) |
-| **5** | **Analisis Dinamis** — menjalankan program sambil mengamatinya (gdb) | – | [ID](PART5/note.id.md) · [EN](PART5/note.md) |
+| **5** | **Analisis Dinamis** — menjalankan program sambil mengamatinya (gdb) | [tonton](https://www.youtube.com/watch?v=iuYRHUH51yA) | [ID](PART5/note.id.md) · [EN](PART5/note.md) |
 | ↳ 5.1 | **Lab: Buffer Overflow** — melihat stack rusak, lalu ret2win | [tonton](https://www.youtube.com/watch?v=UVdciB72aEk) | [ID](PART5/BufferOverflow/note.id.md) · [EN](PART5/BufferOverflow/note.md) |
 | **6** | **Pola Reversing** — mengenali pola buatan compiler (`if`, loop, `switch`) | – | [ID](PART6/note.id.md) · [EN](PART6/note.md) |
 | 7–9 | CrackMe & Tantangan · Anti-reversing & Packing · Spesialisasi — *rencana* | – | – |

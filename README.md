@@ -46,11 +46,11 @@ Currently written: PART 0 → PART 6 (Indonesian drafts); English notes are catc
 | **0** | **Foundations** — the RE mindset + first hands-on win | [watch](https://www.youtube.com/watch?v=zDJtr9r2RFs&t=197s) | [EN](PART0/note.md) · [ID](PART0/note.id.md) |
 | **1** | **Architecture Fundamentals** — CPU, registers, memory, the stack | [watch](https://www.youtube.com/watch?v=eEcXSvd8PCM) | [EN](PART1/note.md) · [ID](PART1/note.id.md) |
 | **2** | **Assembly Language** — read x86-64 disassembly fluently | [watch](https://www.youtube.com/watch?v=HkMetTR67XU) | [EN](PART2/note.md) · [ID](PART2/note.id.md) |
-| **3** | **Executable Formats** — anatomy of ELF (Linux) & PE (Windows) | – | [EN](PART3/note.md) · [ID](PART3/note.id.md) |
+| **3** | **Executable Formats** — anatomy of ELF (Linux) & PE (Windows) | [watch](https://www.youtube.com/watch?v=NefasNimlIk) | [EN](PART3/note.md) · [ID](PART3/note.id.md) |
 | **4** | **Static Analysis** — map the whole binary without running it (Ghidra) | [watch](https://www.youtube.com/watch?v=sbGsMc9_qvg) | [EN](PART4/note.md) · [ID](PART4/note.id.md) |
-| **5** | **Dynamic Analysis** — run it and watch it live (gdb) | – | [EN](PART5/note.md) · [ID](PART5/note.id.md) |
+| **5** | **Dynamic Analysis** — run it and watch it live (gdb) | [watch](https://www.youtube.com/watch?v=iuYRHUH51yA) | [EN](PART5/note.md) · [ID](PART5/note.id.md) |
 | ↳ 5.1 | **Lab: Buffer Overflow** — watch the stack break, then ret2win | [watch](https://www.youtube.com/watch?v=UVdciB72aEk) | [EN](PART5/BufferOverflow/note.md) · [ID](PART5/BufferOverflow/note.id.md) |
-| **6** | **Reversing Patterns** — spot compiler-generated shapes (`if`, loops, `switch`) | – | [EN](PART6/note.md) · [ID](PART6/note.id.md) |
+| **6** | **Reversing Patterns** — spot compiler-generated shapes (`if`, loops, `switch`) | [watch](https://www.youtube.com/watch?v=fgWMBp4TVdU) | [EN](PART6/note.md) · [ID](PART6/note.id.md) |
 | 7–9 | CrackMes & Challenges · Anti-reversing & Packing · Specialization — *planned* | – | – |
 
 ## Repository structure
