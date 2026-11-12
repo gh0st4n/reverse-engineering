@@ -52,7 +52,7 @@ Yang sudah ditulis: PART 0 → PART 6 (draf Indonesia); versi Inggris menyusul.
 | **4** | **Analisis Statis** — memetakan seluruh binary tanpa menjalankannya (Ghidra) | [tonton](https://www.youtube.com/watch?v=sbGsMc9_qvg) | [ID](PART4/note.id.md) · [EN](PART4/note.md) |
 | **5** | **Analisis Dinamis** — menjalankan program sambil mengamatinya (gdb) | [tonton](https://www.youtube.com/watch?v=iuYRHUH51yA) | [ID](PART5/note.id.md) · [EN](PART5/note.md) |
 | ↳ 5.1 | **Lab: Buffer Overflow** — melihat stack rusak, lalu ret2win | [tonton](https://www.youtube.com/watch?v=UVdciB72aEk) | [ID](PART5/BufferOverflow/note.id.md) · [EN](PART5/BufferOverflow/note.md) |
-| **6** | **Pola Reversing** — mengenali pola buatan compiler (`if`, loop, `switch`) | – | [ID](PART6/note.id.md) · [EN](PART6/note.md) |
+| **6** | **Pola Reversing** — mengenali pola buatan compiler (`if`, loop, `switch`) | [tonton](https://www.youtube.com/watch?v=fgWMBp4TVdU) | [ID](PART6/note.id.md) · [EN](PART6/note.md) |
 | 7–9 | CrackMe & Tantangan · Anti-reversing & Packing · Spesialisasi — *rencana* | – | – |
 
 ## Struktur repositori
